@@ -1,21 +1,63 @@
 body {
-    background-color: yellow;
+    background-image: linear-gradient(180deg, #01587A, 
+    #15a2db);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    background-size: cover;
   }
-#button1{
-    background-color: rgb(255, 183, 0);
+
+#top_container{
+    text-align: center;
+
+    
 }
-#button2{
-    background-color: rgb(226, 43, 43);
+#bottom_container{
+    text-align: center;
+
 }
-#button3{
-    background-color: rgb(43, 217, 226);
+#button{   
+     color: white;
+    font-family: 'Rubik', sans-serif;
+    transition-duration: 0.4s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 25%;
+    height:400px;
+    
 }
-.post1{
-    background-color: rgb(133, 20, 220);
+.A{
+    background-color: #f2b900;
+
+
+    
+}  
+.A:hover {
+    background-color: #5CB2C0; 
+    color: rgb(0, 0, 0);
+  }
+.B{
+    background-color: #f2b900;
+
 }
-.post2{
-    background-color: rgb(20, 220, 127);
+.B:hover {
+    background-color: #5CB2C0; 
+    color: rgb(0, 0, 0);
+  }
+.C{
+    background-color: #f2b900;
 }
-.post3{
-    background-color: rgb(20, 177, 220);
+.C:hover {
+    background-color: #5CB2C0    ; 
+    color: rgb(0, 0, 0);
+  }
+.D{
+    background-color: #f2b900;
 }
+.D:hover {
+    background-color: #5CB2C0; 
+    color: rgb(0, 0, 0);
+  }

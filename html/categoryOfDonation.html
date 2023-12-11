@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--לא לשכוח להוסיף אייקון--> 
-    <link rel="stylesheet" href="../css/home_page.css">
+    <link rel="icon" type="image/x-icon" href="../media/TAlogo.png">
+    <link rel="stylesheet" href="../css/categoryOfDonation.css">
     <script src="../js/home_page.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>headline</h1>
-    <h2>subtitle</h2>   
-    <div id="button1">
-        <button class="post1" onclick='postOne()'>post1</button>
+<body dir="rtl">
+    <h1>בחרו במה תרצו לתרום/ לעסוק</h1>
+    <div class="buttons">
+        <div id="top_container">
+            <button id="button" class="A" onclick='postOne()'>הסברה</button>
+            <button id="button" class="B" onclick='postTwo()'>קמפיין חטופים</button>
+        </div>
+        <div id="bottom_container">
+            <button id="button" class="C" onclick='postTwo()'> תרומה והתנדבות בשביל החיילים</button>
+            <button id="button" class="D" onclick='postTwo()'> תרומה והתנדבות בשביל מפוני הדרום והצפון</button>
+        </div>
     </div>
-    <div id="button2">
-        <button class="post2" onclick='postTwo()'>post2</button>
-    </div>
-    <div id="button3">
-        <button class="post3" onclick='postThree()'>post3</button>
-    </div>
+
 </body>
 </html>
