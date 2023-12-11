@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+  }
+#description{
+    background-color: chartreuse;
+}
+#home_button{
+    background-color: blueviolet;
+}
+.home_page_button{
+    background-color: crimson;
+}
