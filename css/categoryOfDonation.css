@@ -9,57 +9,60 @@ body {
   }
 
 #top_container{
-    text-align: center;
-
-    
+    text-align: center;    
 }
 #bottom_container{
     text-align: center;
-
 }
-#button{   
-     color: white;
+.button{   
+    color: white;
     font-family: 'Rubik', sans-serif;
     transition-duration: 0.4s;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size:40px;
+    font-size: 40px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 25%;
-    height:400px;
+    width: 15%;
+    height: 250px;
+    /* height:400px; */
+    border-radius: 15px;
+    border: none;
     
 }
-.A{
+#A{
     background-color: #f2b900;
-
-
-    
 }  
-.A:hover {
+#A:hover {
     background-color: #5CB2C0; 
     color: rgb(0, 0, 0);
   }
-.B{
+#B{
     background-color: #f2b900;
 
 }
-.B:hover {
+#B:hover {
     background-color: #5CB2C0; 
     color: rgb(0, 0, 0);
   }
-.C{
+#C{
     background-color: #f2b900;
 }
-.C:hover {
+#C:hover {
     background-color: #5CB2C0    ; 
     color: rgb(0, 0, 0);
   }
-.D{
+#D{
     background-color: #f2b900;
 }
-.D:hover {
+#D:hover {
     background-color: #5CB2C0; 
     color: rgb(0, 0, 0);
   }
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  
+}

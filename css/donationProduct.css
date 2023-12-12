@@ -1,0 +1,39 @@
+body{
+    background-color: #01587A;
+}
+
+#titleDonationProduct{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+#secondaryTitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+#divproducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+
+
+
+#divproductsHospitals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 34%;
+    width: 400px;
+    height: auto;
+}
+
+
+/*font-family: 'Rubik', sans-serif;*/
