@@ -1,8 +1,8 @@
 class Clothes extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-  
-        <div class="contributionTypeButton">
+        <script src="../product.js"></script>
+        <div class="contributionTypeButton" onclick = "organizationFunction()">
             <img class="pictures" src="../../media/clothes.jpg">
             <p class="productsNames">בגדים</p>
         </div>
@@ -44,6 +44,8 @@ class Clothes extends HTMLElement{
         .contributionTypeButton:hover{
             cursor: pointer;
         }
+
+        
 
         </style>
         `}}

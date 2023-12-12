@@ -3,11 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/donationOrganization.css">
+    <script src="../js/donationOrganization.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <div id="home_button">
-        <button class="home_page_button" onclick='homePage()'>move to the home page</button>
-    </div>
-</body>
+<body dir="rtl">
+    <h1 style="text-align:center;">אירגונים</h1>
+    <div id="pack">
+      <button id="a" class="creatorg" onclick="click"> + </button>
+      <div id="clean" class="open">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>יצירת ארגון
+          </h2>
+          <input type="checkbox" name="things" value="updates">
+          <p3>1. הכנס את שם הארגון/המיזם<br></p3>
+  
+          <input type="checkbox" name="things" value="updates">
+          <p3>2.מיקום הארגון/המיזם</p3><br>
+  
+          <input type="checkbox" name="things" value="updates">
+          <p3>3.הסבר בקצרה על הארגון/המיזם</p3><br>
+  
+          <input type="checkbox" name="things" value="updates">
+          <p3> 4.הוסף תמונות וסרטונים</p3><br>
+  
+          <div>
+            <form id="textAreaForm">
+              <!--<div>-->
+              <textarea id="UserText" rows="4" cols="50"></textarea><br><br>
+              <!--<button id="ManagerComment" onclick="PlusFunction()">+</button>-->
+          </div>
+          <!--</div>-->
+          </form>
+  
+          <div id="publishAndResetButtons">
+            <button class="publishAndResetButtonsClass" id="ButtonUserText" divForOneQuestion onclick="PublishUserText()">פרסם<br></button>
+            <button class="publishAndResetButtonsClass" id="resetButton" onclick="functionReset()">אתחול</button>
+          </div>
+        </div>
+  
+      </div>
+  
+      <div dir="rtl">
+        <br><br>
+        <button id="a" class='neworg'>
+          <h2>ביחד ננצח</h2><br><br>
+          <div id="secondpart"> </div><br><br>
+          <h3>מיקום: הערבה 89 חולון<br> הסבר:<br> תמונות וסרטונים: </h3><br><br>
+  
+        </button>
+      </div>
+      <div id="allTextUsers">
+        <br><br><br>
+      </div>
+      <!--    <div id="allTextUsers">
+        <br>
+      </div>-->
+      <div>
+  
+      </div>
+  
+  </body>
 </html>
+

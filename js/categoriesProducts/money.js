@@ -1,8 +1,8 @@
 class Money extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-  
-        <div class="contributionTypeButton">
+        <script src="../product.js"></script>
+        <div class="contributionTypeButton" onclick="moneyFunction()">
             <img class="pictures" src="../../media/money.jpg">
             <p class="productsNames">כסף</p>
         </div>
@@ -46,6 +46,7 @@ class Money extends HTMLElement{
             cursor: pointer;
         }
 
+        
         </style>
         `}}
 

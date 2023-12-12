@@ -1,8 +1,8 @@
 class Games extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-  
-        <div class="contributionTypeButton">
+        <script src="../product.js"></script>
+        <div class="contributionTypeButton" onclick = "organizationFunction()">
             <img class="pictures" src="../../media/gamesPicture.jpg">
             <p class="productsNames">משחקים</p>
         </div>
@@ -46,6 +46,7 @@ class Games extends HTMLElement{
             cursor: pointer;
         }
 
+        
         </style>
         `}}
 

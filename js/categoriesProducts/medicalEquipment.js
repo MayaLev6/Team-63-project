@@ -1,8 +1,8 @@
 class MedicalEquipment extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-  
-        <div class="contributionTypeButton">
+        <script src="../product.js"></script>
+        <div class="contributionTypeButton" onclick = "organizationFunction()">
             <img class="pictures" src="../../media/medicalEquipment.jpg">
             <p class="productsNames">ציוד רפואי</p>
         </div>
@@ -45,6 +45,8 @@ class MedicalEquipment extends HTMLElement{
         .contributionTypeButton:hover{
             cursor: pointer;
         }
+
+        
 
         </style>
         `}}

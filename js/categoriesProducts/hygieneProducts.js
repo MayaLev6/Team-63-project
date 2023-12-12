@@ -1,8 +1,8 @@
 class HygieneProducts extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-  
-        <div class="contributionTypeButton">
+        <script src="../product.js"></script>
+        <div class="contributionTypeButton" onclick = "organizationFunction()">
             <img class="pictures" src="../../media/hygieneProducts.jpeg">
             <p class="productsNames">מוצרי הגיינה</p>
         </div>
@@ -45,6 +45,8 @@ class HygieneProducts extends HTMLElement{
         .contributionTypeButton:hover{
             cursor: pointer;
         }
+
+        
 
         </style>
         `}}

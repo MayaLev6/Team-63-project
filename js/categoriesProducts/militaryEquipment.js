@@ -1,8 +1,8 @@
 class MilitaryEquipment extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-  
-        <div class="contributionTypeButton">
+        <script src="../product.js"></script>
+        <div class="contributionTypeButton" onclick = "organizationFunction()">
             <img class="pictures" src="../../media/militaryEquipment.jpeg">
             <p class="productsNames">ציוד צבאי</p>
         </div>
@@ -46,6 +46,7 @@ class MilitaryEquipment extends HTMLElement{
             cursor: pointer;
         }
 
+        
         </style>
         `}}
 
